@@ -1,0 +1,145 @@
+.left-side{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 25px;
+  width: 100%;
+}
+
+h1{
+  color: orange;
+}
+.error{
+color: red;
+margin-top: 0;
+margin-left: 1rem;
+}
+
+#general{
+  margin-left: 2rem;
+  margin-right: 5rem;
+}
+
+#container{
+display: flex;
+margin: 2rem 0;
+}
+
+input{
+padding: 2rem 250px;
+padding-left: 10px;
+
+margin: 1rem;
+}
+
+#delivery-detail{
+display: flex;
+}
+
+form{
+display: flex;
+}
+
+#dropship{
+display: flex;
+}
+
+label{
+margin-top: 1rem;
+margin-left: 3rem;
+}
+
+.back{
+display: flex;
+align-items: center;
+margin-left: 20px;
+margin-top: 25px;
+}
+
+#detail{
+  margin: 1rem 0 ;
+}
+
+#delivery, #payment{
+  margin: 2rem 0;
+  font-weight:600;
+}
+
+#stepper{
+  justify-content: center;
+}
+
+#title{
+  color: orange;
+}
+
+.side{
+  margin: 2rem;
+  width: 400px;
+  height: 100%;
+
+}
+
+.highlight{
+  color: rgb(62, 197, 62);
+}
+
+#detail{
+  display: flex;
+}
+
+#p3{
+  padding-left: 10rem;
+  margin: 3rem;
+}
+.right{
+  margin-left: 3rem;
+  text-align: right;
+  font-weight: bold;
+}
+
+h2{
+  color: orange;
+}
+
+button{
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  padding: 0px 5rem;
+  color: white;
+}
+
+.list{
+  display: flex;
+  margin: 1rem;
+  border: 2px solid gray;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.box{
+  display: flex;
+  justify-content: left;
+}
+
+@media only screen and (max-width: 1024px) {
+.left-side{
+  margin-left: 20px;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.side{
+  margin-left: 0;
+}
+  
+#container{
+  /* display: flex; */
+  margin: 2rem 0;
+}
+input{
+  padding: 1rem 50px;
+  padding-left: 5px;
+  margin: 0.5rem;
+}
+}
